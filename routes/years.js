@@ -4,7 +4,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
     let date = new Date();
     let year = date.getFullYear();
-    res.send({year: `${year}`})
+    res.json({year:"2023"})
   });
 
 
